@@ -17,7 +17,7 @@
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/amzn/amazon-pay-api-sdk-dotnet</RepositoryUrl>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>Amazon.Pay.API.SDK.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
@@ -27,7 +27,7 @@
 
   <ItemGroup>
     <PackageReference Include="Portable.BouncyCastle" Version="1.8.9" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
     <None Include="logo.png" Pack="true" PackagePath="" />
     <None Include="..\LICENSE.txt" Pack="true" PackagePath="" />
   </ItemGroup>
